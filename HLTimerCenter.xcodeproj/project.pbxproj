@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF18CAC81D97E82E00397968 /* HLTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = CF18CAC71D97E82E00397968 /* HLTimer.m */; };
+		CF5C5D561D97D9DB00530659 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF5C5D551D97D9DB00530659 /* main.m */; };
+		CF5C5D591D97D9DB00530659 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF5C5D581D97D9DB00530659 /* AppDelegate.m */; };
+		CF5C5D5C1D97D9DB00530659 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF5C5D5B1D97D9DB00530659 /* ViewController.m */; };
+		CF5C5D5F1D97D9DB00530659 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF5C5D5D1D97D9DB00530659 /* Main.storyboard */; };
+		CF5C5D611D97D9DB00530659 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF5C5D601D97D9DB00530659 /* Assets.xcassets */; };
+		CF5C5D641D97D9DB00530659 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF5C5D621D97D9DB00530659 /* LaunchScreen.storyboard */; };
+		CF5C5D701D97D9EB00530659 /* HLTimerCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = CF5C5D6F1D97D9EB00530659 /* HLTimerCenter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CF18CAC61D97E82E00397968 /* HLTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLTimer.h; sourceTree = "<group>"; };
+		CF18CAC71D97E82E00397968 /* HLTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLTimer.m; sourceTree = "<group>"; };
+		CF5C5D511D97D9DB00530659 /* HLTimerCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLTimerCenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF5C5D551D97D9DB00530659 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF5C5D571D97D9DB00530659 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF5C5D581D97D9DB00530659 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF5C5D5A1D97D9DB00530659 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF5C5D5B1D97D9DB00530659 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF5C5D5E1D97D9DB00530659 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF5C5D601D97D9DB00530659 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF5C5D631D97D9DB00530659 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF5C5D651D97D9DB00530659 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF5C5D6E1D97D9EB00530659 /* HLTimerCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLTimerCenter.h; sourceTree = "<group>"; };
+		CF5C5D6F1D97D9EB00530659 /* HLTimerCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLTimerCenter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF5C5D4E1D97D9DB00530659 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF5C5D481D97D9DB00530659 = {
+			isa = PBXGroup;
+			children = (
+				CF5C5D531D97D9DB00530659 /* HLTimerCenter */,
+				CF5C5D521D97D9DB00530659 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF5C5D521D97D9DB00530659 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF5C5D511D97D9DB00530659 /* HLTimerCenter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF5C5D531D97D9DB00530659 /* HLTimerCenter */ = {
+			isa = PBXGroup;
+			children = (
+				CF5C5D6B1D97D9E200530659 /* Source */,
+				CF5C5D571D97D9DB00530659 /* AppDelegate.h */,
+				CF5C5D581D97D9DB00530659 /* AppDelegate.m */,
+				CF5C5D5A1D97D9DB00530659 /* ViewController.h */,
+				CF5C5D5B1D97D9DB00530659 /* ViewController.m */,
+				CF5C5D5D1D97D9DB00530659 /* Main.storyboard */,
+				CF5C5D601D97D9DB00530659 /* Assets.xcassets */,
+				CF5C5D621D97D9DB00530659 /* LaunchScreen.storyboard */,
+				CF5C5D651D97D9DB00530659 /* Info.plist */,
+				CF5C5D541D97D9DB00530659 /* Supporting Files */,
+			);
+			path = HLTimerCenter;
+			sourceTree = "<group>";
+		};
+		CF5C5D541D97D9DB00530659 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF5C5D551D97D9DB00530659 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF5C5D6B1D97D9E200530659 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				CF5C5D6E1D97D9EB00530659 /* HLTimerCenter.h */,
+				CF5C5D6F1D97D9EB00530659 /* HLTimerCenter.m */,
+				CF18CAC61D97E82E00397968 /* HLTimer.h */,
+				CF18CAC71D97E82E00397968 /* HLTimer.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF5C5D501D97D9DB00530659 /* HLTimerCenter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF5C5D681D97D9DB00530659 /* Build configuration list for PBXNativeTarget "HLTimerCenter" */;
+			buildPhases = (
+				CF5C5D4D1D97D9DB00530659 /* Sources */,
+				CF5C5D4E1D97D9DB00530659 /* Frameworks */,
+				CF5C5D4F1D97D9DB00530659 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HLTimerCenter;
+			productName = HLTimerCenter;
+			productReference = CF5C5D511D97D9DB00530659 /* HLTimerCenter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF5C5D491D97D9DB00530659 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "wangshiyu13\U0001";
+				TargetAttributes = {
+					CF5C5D501D97D9DB00530659 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 5TJBR4D2AC;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CF5C5D4C1D97D9DB00530659 /* Build configuration list for PBXProject "HLTimerCenter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF5C5D481D97D9DB00530659;
+			productRefGroup = CF5C5D521D97D9DB00530659 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF5C5D501D97D9DB00530659 /* HLTimerCenter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF5C5D4F1D97D9DB00530659 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF5C5D641D97D9DB00530659 /* LaunchScreen.storyboard in Resources */,
+				CF5C5D611D97D9DB00530659 /* Assets.xcassets in Resources */,
+				CF5C5D5F1D97D9DB00530659 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF5C5D4D1D97D9DB00530659 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF5C5D701D97D9EB00530659 /* HLTimerCenter.m in Sources */,
+				CF5C5D5C1D97D9DB00530659 /* ViewController.m in Sources */,
+				CF18CAC81D97E82E00397968 /* HLTimer.m in Sources */,
+				CF5C5D591D97D9DB00530659 /* AppDelegate.m in Sources */,
+				CF5C5D561D97D9DB00530659 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CF5C5D5D1D97D9DB00530659 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF5C5D5E1D97D9DB00530659 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF5C5D621D97D9DB00530659 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF5C5D631D97D9DB00530659 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF5C5D661D97D9DB00530659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF5C5D671D97D9DB00530659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF5C5D691D97D9DB00530659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5TJBR4D2AC;
+				INFOPLIST_FILE = HLTimerCenter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangshiyu13.HLTimerCenter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF5C5D6A1D97D9DB00530659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5TJBR4D2AC;
+				INFOPLIST_FILE = HLTimerCenter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangshiyu13.HLTimerCenter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF5C5D4C1D97D9DB00530659 /* Build configuration list for PBXProject "HLTimerCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF5C5D661D97D9DB00530659 /* Debug */,
+				CF5C5D671D97D9DB00530659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF5C5D681D97D9DB00530659 /* Build configuration list for PBXNativeTarget "HLTimerCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF5C5D691D97D9DB00530659 /* Debug */,
+				CF5C5D6A1D97D9DB00530659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF5C5D491D97D9DB00530659 /* Project object */;
+}
