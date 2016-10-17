@@ -35,6 +35,12 @@
         [self.view addSubview:view];
     }] resume];
     
+    HLTimer *timer = [[HLTimer alloc] initWithTime:1 andAfterTime:0 andRepeatsCount:5 isRepeats:NO completionHandler:^{
+        NSLog(@"跑一下");
+    }];
+    
+    [[HLTimerCenter defaultCenter] addTimer:timer autoPlay:NO];
+    
     NSLog(@"要睡了");
     [NSThread sleepForTimeInterval:10];
     NSLog(@"睡饱了");
